@@ -1,0 +1,3 @@
+{{range .containers}}
+<p>{{.ID}} {{.Image}} {{.State}} <a href="/start/{{.ID}}">スタート</a><a href="/stop/{{.ID}}">ストップ</a></p>
+{{end}}
